@@ -1,0 +1,80 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "description": "Wash the dishes",
+    "detailed": "Load the dishwasher.",
+    "status": "new",
+    "complete_before": "2019-10-06"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "description": "Buy new clothes",
+    "detailed": "A pair of jeans, one evening dress and a pair of socks.",
+    "status": "new",
+    "complete_before": "2019-10-15"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 3,
+  "fields": {
+    "description": "Do homework",
+    "detailed": "Complete three steps and bonus part.",
+    "status": "new",
+    "complete_before": "2019-10-09"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 4,
+  "fields": {
+    "description": "Do a spring cleaning",
+    "detailed": "Throw out unnecessary things.\r\nWash the windows.",
+    "status": "in_progress",
+    "complete_before": "2019-03-05"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 5,
+  "fields": {
+    "description": "Learn Django",
+    "detailed": "Need to learn very well.",
+    "status": "in_progress",
+    "complete_before": "2020-02-07"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 7,
+  "fields": {
+    "description": "Buy a new flat",
+    "detailed": "New flat should be bigger and more comfortable than previous one.",
+    "status": "in_progress",
+    "complete_before": "2020-10-27"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$0I7jNea6gB39$O8qutGRswgb4uwmH916dOe0fXzvB2lySAYXJGtlBHqQ=",
+    "last_login": "2019-09-05T11:33:44.556Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-05T11:29:45.251Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
